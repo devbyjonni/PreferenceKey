@@ -11,6 +11,8 @@
 		FACF90D628F7262C00FAE79D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF90D528F7262C00FAE79D /* ContentView.swift */; };
 		FACF90D828F7262E00FAE79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACF90D728F7262E00FAE79D /* Assets.xcassets */; };
 		FACF90DC28F7262E00FAE79D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACF90DB28F7262E00FAE79D /* Preview Assets.xcassets */; };
+		FACF90E328F72C0F00FAE79D /* GeoSameSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF90E228F72C0F00FAE79D /* GeoSameSizeView.swift */; };
+		FACF90E528F7301100FAE79D /* ScrollViewOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF90E428F7301100FAE79D /* ScrollViewOffset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		FACF90D728F7262E00FAE79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FACF90D928F7262E00FAE79D /* PreferenceKey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PreferenceKey.entitlements; sourceTree = "<group>"; };
 		FACF90DB28F7262E00FAE79D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FACF90E228F72C0F00FAE79D /* GeoSameSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoSameSizeView.swift; sourceTree = "<group>"; };
+		FACF90E428F7301100FAE79D /* ScrollViewOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				FACF90D328F7262C00FAE79D /* PreferenceKeyApp.swift */,
 				FACF90D528F7262C00FAE79D /* ContentView.swift */,
+				FACF90E228F72C0F00FAE79D /* GeoSameSizeView.swift */,
+				FACF90E428F7301100FAE79D /* ScrollViewOffset.swift */,
 				FACF90D728F7262E00FAE79D /* Assets.xcassets */,
 				FACF90D928F7262E00FAE79D /* PreferenceKey.entitlements */,
 				FACF90DA28F7262E00FAE79D /* Preview Content */,
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACF90D628F7262C00FAE79D /* ContentView.swift in Sources */,
+				FACF90E328F72C0F00FAE79D /* GeoSameSizeView.swift in Sources */,
 				FACF90D428F7262C00FAE79D /* PreferenceKeyApp.swift in Sources */,
+				FACF90E528F7301100FAE79D /* ScrollViewOffset.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
